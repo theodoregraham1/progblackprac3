@@ -13,5 +13,5 @@ Author: Skyla
 ### education.html
 Author: Olufela
 
-### medicine.gtml
+### medicine.html
 Author: Theodore
