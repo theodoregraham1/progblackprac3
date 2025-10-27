@@ -10,14 +10,14 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-secondary mb-3">
-        <div class="container-fluid">
-            <ul class="navbar-nav mx-3">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Index</a>
+    <nav class="nav bg-body-secondary mb-3">
+        <div class="container-fluid mx-auto">
+            <ul class="nav me-auto">
+                <li class="nav-item col-3">
+                    <a class="nav-link navbar0" href="index.html">Index</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="medicine.html">Medicine</a>
+                <li class="nav-item col-3">
+                    <a class="nav-link active" aria-current="page" href="medicine.html">Medicine</a>
                 </li>
                 <!-- Page links go here-->
             </ul>
@@ -25,10 +25,43 @@
     </nav>
 
     <!-- Page content -->
-    <div class="container-fluid">
-        <h2>Computers in Medicine</h2>
+    <div class="container-fluid mx-3">
+        <div class="row mb-3">
+            <h2>Computers in Medicine</h2>
+        </div>
 
-        Medicine uses computers
+        <div class="ms-3">
+            <p class="row">
+                In 2017, Mehta, Deb & Rao noted that "computers are being increasingly used in [the] medical profession". They described the importance of:
+            </p>
+
+            <dl class="row mb-3">
+                <dt>Statistical modelling</dt>
+                <dd>To quickly and accurately interpret statistical data</dd>
+
+                <dt>Laboratory computing</dt>
+                <dd>To provide accurate and rapid results to tests such as blood chemistry and then match these with patient identification details</dd>
+
+                <dt>Hospital information systems</dt>
+                <dd>To consistently transmit and store data and monitor this process</dd>
+            </dl>
+
+            <p class="row">
+                More recently, there have been advancements in using technologies such as computer vision or Convolutional Neural Networks to identify malignant and benign tumors.
+            </p>
+        </div>
+
+
+        <div class="row mt-5">
+            <hr>
+
+            <h3>Bibliography</h3>
+            <ul class="list-unstyled">
+                <li>
+                    Mehta VK, Deb PS, Rao DS. APPLICATION OF COMPUTER TECHNIQUES IN MEDICINE. Med J Armed Forces India. 1994 Jul;50(3):215-218. doi: 10.1016/S0377-1237(17)31065-1. Epub 2017 Jun 27. PMID: 30510351; PMCID: PMC6257447.
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
