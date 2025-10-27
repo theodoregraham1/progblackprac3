@@ -1,7 +1,7 @@
 # progblackprac3
 
 Worked on by:
-- Skyla (ShackWoods)
+- Skyla Wakefield (ShackWoods)
 - Theodore Graham (theodoregraham1)
 - Olufela (olfelx)
 
@@ -9,3 +9,6 @@ Worked on by:
 
 ### automation.html
 Author: Skyla
+
+### education.html
+Author: Olufela
