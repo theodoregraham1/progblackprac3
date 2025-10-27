@@ -1,5 +1,5 @@
 # progblackprac3
 
 Worked on by:
-
-Skyla (ShackWoods)
+- Skyla (ShackWoods)
+- Theodore Graham (theodoregraham1)
