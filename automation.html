@@ -10,48 +10,90 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-        <ul class="navbar-nav mx-3">
-            <li class="navbar-item">
-                <a class="nav-link active" href="index.html">Index</a>
-            </li>
-            <!-- Page links go here-->
-        </ul>
+    <nav class="nav bg-body-secondary mb-3">
+        <div class="container-fluid mx-auto">
+            <ul class="nav me-auto">
+                <li class="nav-item col-3">
+                    <a class="nav-link navbar0" href="index.html">Index</a>
+                </li>
+                <li class="nav-item col-3">
+                    <a class="nav-link active" aria-current="page" href="medicine.html">Medicine</a>
+                </li>
+                <li class="nav-item col-3">
+                    <a class="nav-link active" aria-current="page" href="automation.html">Automation</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <h1>What is automation</h1>
-    <p>Automation is the utilisation of computing technology to perform a task in a consistent and (generally) efficient manner</p>
-    <p>Utilising automations has many benefits, such as 
-        <a href = "#Saving_Time">saving time</a>,or
-        <a href = "#Reducing_Danger">reducing danger</a>.
-    </p>
+    <!-- Page content -->
+    <div class="container-fluid ms-2">
+        <div class="row mb-3">
+            <h2>What is Automation?</h2>
+        </div>
+        <div class = "ms-3">
+            <div class="row">
+                <ul class = "list-unstyled">
+                    <li>Automation is the utilisation of computing technology to perform a task in a consistent and (generally) efficient manner.</li>
+                    <li>Utilising automations has many benefits, such as 
+                    <a href = "#Saving_Time">saving time</a>, or
+                    <a href = "#Reducing_Danger">reducing danger</a>.</li>
+                </ul>
+            </div>
+        </div>
 
-    <h1 id = "Saving_Time">Saving Time</h1>
-    <p>Computers are much faster than humans at solving many problems, such as:</p>
-    <ul>
-        <li>Sorting Lists</li>
-        <li>Searching for Items</li>
-        <li>Solving Mathematical Equations</li>
-    </ul>
-    <p>Similarly, computers are perfectly consistent, returning the same action for a given input.</p>
-    <p>As a result, an automation can be used to repeatedly perform a task in seconds what might take a human hours.</p>
-    <p>This cumulatively saved time is then able to be used in other endeavours, or potentially result in more free-time.</p>
+        <div class="row mb-3">
+            <h2 id = "Saving_Time">Saving Time</h2>
+        </div>
+        <div class = "ms-3">
+            <div class="row">
+                <ul class = "list-unstyled">
+                    <li>Computers are much faster than humans at solving many problems, such as:</li>
+                    <ul>
+                        <li>Sorting Lists</li>
+                        <li>Searching for Items</li>
+                        <li>Solving Mathematical Equations</li>
+                    </ul>
+                    <li>Similarly, computers are perfectly consistent, returning the same action for a given input.</li>
+                    <li>As a result, an automation can be used to repeatedly perform a task in seconds what might take a human hours.</li>
+                    <li>This cumulatively saved time is then able to be used in other endeavours, or potentially result in more free-time.</li>
+                </ul>
+            </div>
+        </div>
 
-    <h2>Examples of saving time</h2>
-    <p>Automations may seem like something that only benefit large organisations with lots of menial tasks to perform on loop.</p>
-    <p>However, almost everything we do in our day-to-day lives has benefitted from automation.</p>
-    <p>Take Google Maps for example.</p>
-    <p>Google Maps uses an automation to finding the "best" route from A to B.</p>
-    <p>This automation can find such a route in moments, a task which could take you a much longer time to just find A SINGLE route.</p>
-    <p>For another example, consider phone calls.</p>
-    <p>Years ago, to make a phone call you'd have to dial the phone number then ask someone to physically connect your phone line to that person.</p>
-    <p>Nowadays, you only have to press a button or two on your phone and you will be connected to someone else in no time.</p>
-    <p>What your phone is doing to connect you with your friend is an automation. One which saves you a lot of time.</p>
+        <div class="row mb-3">
+            <h2>Examples of saving time</h2>
+        </div>
+        <div class = "ms-3">
+            <div class="row">
+                <ul class = "list-unstyled">
+                    <li>Automations may seem like something that only benefit large organisations with lots of menial tasks to perform on loop.</li>
+                    <li>However, almost everything we do in our day-to-day lives has benefitted from automation.</li>
+                    <li>Take Google Maps for example.</li>
+                    <li>Google Maps uses an automation to finding the "best" route from A to B.</li>
+                    <li>This automation can find such a route in moments, a task which could take you a much longer time to just find A SINGLE route.</li>
+                    <li>For another example, consider phone calls.</li>
+                    <li>Years ago, to make a phone call you'd have to dial the phone number then ask someone to physically connect your phone line to that person.</li>
+                    <li>Nowadays, you only have to press a button or two on your phone and you will be connected to someone else in no time.</li>
+                    <li>What your phone is doing to connect you with your friend is an automation. One which saves you a lot of time.</li>
+                </ul>
+            </div>
+        </div>
 
-    <h1 id = "Reducing_Danger">Reducing Danger</h1>
-    <p>Automations present opportunities to reduce the danger in heavy industries</p>
-    <p>The primary automation improving safety is robotics, according to <a href = "https://www.getac.com/en/blog/safety-technologies-for-heavy-industries/">getac</a></p>
-    <p>By performing certain tasks, such as moving components around a warehouse, or putting components into place during manufacturing, 
-        automations remove humans from potentially dangerous situations, allowing them to perform tasks from a safe distance.</p>
+        <div class="row mb-3">
+            <h2 id = "Reducing_Danger">Reducing Danger</h2>
+        </div>
+        <div class = "ms-3">
+            <div class="row">
+                <ul class = "list-unstyled">
+                    <li>Automations present opportunities to reduce the danger in heavy industries</li>
+                    <li>The primary automation improving safety is robotics, according to 
+                        <a href = "https://www.getac.com/en/blog/safety-technologies-for-heavy-industries/">getac</a></li>
+                    <li>By performing certain tasks, such as moving components around a warehouse, or putting components into place during manufacturing, </li>
+                    <li>automations remove humans from potentially dangerous situations, allowing them to perform tasks from a safe distance.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
