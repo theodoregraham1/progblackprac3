@@ -1,0 +1,40 @@
+i.Interest of content
+
+not much written (other than automation)
+automation looks like it had a lot of effort put in
+
+the others had some good points just aren't very expanded on
+
+
+ii.Consistency and quality of visual presentation
+
+menue bar on top is nice, apart from the hyperlinks not being centered.
+the index page isn't really an index.
+
+pages look more like notes than web pages
+style is more or less consistent
+    - the medicine page has a page split none of the others do and is the only one with a bibliography
+    - automation is the only page without small subtitles and paragraphs going across the full page
+
+
+iii.Quality of written presentation
+
+not sure what this question wants exactly and it's bugging me so lets just say you did it perfectly
+
+
+iv.Validity of HTML
+
+all seems pretty valid 
+nothing to criticise
+
+
+v.Evidence of collaboration including
+
+Clearly all articles have been written by group members.
+Large number of commits hence collaboration is evident.
+
+well balanced 
+and info on who wrote what page is given
+
+
+:)
